@@ -1,0 +1,27 @@
+//base example
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  border: 0;
+  outline: none;
+}
+
+body {
+  padding: 2rem;
+  background-color: rgb(148, 148, 148);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+  }
+}
